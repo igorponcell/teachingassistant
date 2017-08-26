@@ -53,5 +53,5 @@ Scenário: há alunos discrepantes
 		Then eu verei a planilha "Alunos discrepantes" 
 
 		And o aluno "Roberto" está na planilha
-		And a "quantidade de alunos discrepantes" será "1"
-		And o "percentual de alunos discrepantes" será "33%"
+		And a "quantidade de alunos discrepantes" o valor exibido será "1"
+		And o "percentual de alunos discrepantes" o valor exibido será "33%"
