@@ -16,4 +16,5 @@ Scenario: Auto-avaliação mal sucedida
 		And Eu tenho a meta de "Especificar requisitos com qualidade" auto-avaliada na "planilha de notas" como "MPA"
 		And eu tenho a meta de "Entender conceitos de gerência de configuração" auto-avaliada na "planilha de notas" 	não preenchida	
 		When eu tento enviar a auto-avaliação
-		Then A auto-avaliação não é gerada no sistema por ter uma meta não preenchida 
+		Then A auto-avaliação não é gerada no sistema por ter uma meta não preenchida
+		And eu sou redirecionado para a tela da "planilha de notas" 
